@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     // MARK: - Blocks
 
     private func setupButtons() {
-        // Must run on main thread because it will be called from background but is setting up UI elements
+        // Must run on main queue because it will be called from background but is setting up UI elements
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }
 
