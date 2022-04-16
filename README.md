@@ -60,7 +60,7 @@ With tip jars, it's even natural to do nothing if a transaction fails.
 @objc func userDidTapButton(_ sender: UIButton?) {
   guard let identifier = sender?.accessibilityIdentifier else { return }
   tipJar.initiatePurchase(productIdentifier: identifier)
-    }
+}
 ```
 
 ## Troubleshooting
