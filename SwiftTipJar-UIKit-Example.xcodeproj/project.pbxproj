@@ -10,7 +10,6 @@
 		6512C6B9280B291600C44FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512C6B8280B291600C44FEC /* AppDelegate.swift */; };
 		6512C6BB280B291600C44FEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512C6BA280B291600C44FEC /* SceneDelegate.swift */; };
 		6512C6BD280B291600C44FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6512C6BC280B291600C44FEC /* ViewController.swift */; };
-		6512C6C0280B291600C44FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512C6BE280B291600C44FEC /* Main.storyboard */; };
 		6512C6C2280B291600C44FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6512C6C1280B291600C44FEC /* Assets.xcassets */; };
 		6512C6C5280B291600C44FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512C6C3280B291600C44FEC /* LaunchScreen.storyboard */; };
 		6512C6CF280B2A0200C44FEC /* ExampleConfiguration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 6512C6CE280B2A0200C44FEC /* ExampleConfiguration.storekit */; };
@@ -21,7 +20,6 @@
 		6512C6B8280B291600C44FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6512C6BA280B291600C44FEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6512C6BC280B291600C44FEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6512C6BF280B291600C44FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6512C6C1280B291600C44FEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6512C6C4280B291600C44FEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6512C6C6280B291600C44FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				6512C6B8280B291600C44FEC /* AppDelegate.swift */,
 				6512C6BA280B291600C44FEC /* SceneDelegate.swift */,
 				6512C6BC280B291600C44FEC /* ViewController.swift */,
-				6512C6BE280B291600C44FEC /* Main.storyboard */,
 				6512C6C1280B291600C44FEC /* Assets.xcassets */,
 				6512C6C3280B291600C44FEC /* LaunchScreen.storyboard */,
 				6512C6C6280B291600C44FEC /* Info.plist */,
@@ -115,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6512C6B0280B291600C44FEC /* Build configuration list for PBXProject "SwiftTipJar-SwiftUI-Example" */;
+			buildConfigurationList = 6512C6B0280B291600C44FEC /* Build configuration list for PBXProject "SwiftTipJar-UIKit-Example" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,6 +122,7 @@
 			);
 			mainGroup = 6512C6AC280B291600C44FEC;
 			packageReferences = (
+				6512C6D1280B2CA700C44FEC /* XCRemoteSwiftPackageReference "SwiftTipJar" */,
 			);
 			productRefGroup = 6512C6B6280B291600C44FEC /* Products */;
 			projectDirPath = "";
@@ -143,7 +141,6 @@
 				6512C6CF280B2A0200C44FEC /* ExampleConfiguration.storekit in Resources */,
 				6512C6C5280B291600C44FEC /* LaunchScreen.storyboard in Resources */,
 				6512C6C2280B291600C44FEC /* Assets.xcassets in Resources */,
-				6512C6C0280B291600C44FEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,14 +160,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6512C6BE280B291600C44FEC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6512C6BF280B291600C44FEC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6512C6C3280B291600C44FEC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -309,7 +298,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "SwiftTipJar UIKit Example";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -339,7 +327,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "SwiftTipJar UIKit Example";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -359,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6512C6B0280B291600C44FEC /* Build configuration list for PBXProject "SwiftTipJar-SwiftUI-Example" */ = {
+		6512C6B0280B291600C44FEC /* Build configuration list for PBXProject "SwiftTipJar-UIKit-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6512C6C7280B291600C44FEC /* Debug */,
@@ -378,6 +365,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6512C6D1280B2CA700C44FEC /* XCRemoteSwiftPackageReference "SwiftTipJar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dkasaj/SwiftTipJar.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 6512C6AD280B291600C44FEC /* Project object */;
 }
