@@ -1,6 +1,7 @@
 # UIKit tip jar example, using SwiftTipJar
 
 This **UIKit** sample code demonstrates ease of use for [SwiftTipJar](https://github.com/dkasaj/SwiftTipJar) - an open source package. 
+
 There is also [SwiftUI sample code](https://github.com/dkasaj/SwiftTipJar-SwiftUI-Example) (same functionality). 
 
 Tip jars on Apple platforms are a concept of letting users make in-app purchases to show appreciation for the app/developer. These don't actually unlock any additional features.
