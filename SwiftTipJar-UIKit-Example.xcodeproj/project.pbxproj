@@ -13,6 +13,8 @@
 		6512C6C2280B291600C44FEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6512C6C1280B291600C44FEC /* Assets.xcassets */; };
 		6512C6C5280B291600C44FEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6512C6C3280B291600C44FEC /* LaunchScreen.storyboard */; };
 		6512C6CF280B2A0200C44FEC /* ExampleConfiguration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 6512C6CE280B2A0200C44FEC /* ExampleConfiguration.storekit */; };
+		65EEFE89280B2EB800D843BC /* TipJarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EEFE88280B2EB800D843BC /* TipJarView.swift */; };
+		65EEFE8C280B328100D843BC /* SwiftTipJar in Frameworks */ = {isa = PBXBuildFile; productRef = 65EEFE8B280B328100D843BC /* SwiftTipJar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		6512C6C6280B291600C44FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6512C6CC280B29C700C44FEC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6512C6CE280B2A0200C44FEC /* ExampleConfiguration.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExampleConfiguration.storekit; sourceTree = "<group>"; };
+		65EEFE88280B2EB800D843BC /* TipJarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EEFE8C280B328100D843BC /* SwiftTipJar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +49,7 @@
 				6512C6CD280B29CE00C44FEC /* Screenshots */,
 				6512C6B7280B291600C44FEC /* UIKit Example */,
 				6512C6B6280B291600C44FEC /* Products */,
+				65EEFE8A280B328100D843BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +68,7 @@
 				6512C6B8280B291600C44FEC /* AppDelegate.swift */,
 				6512C6BA280B291600C44FEC /* SceneDelegate.swift */,
 				6512C6BC280B291600C44FEC /* ViewController.swift */,
+				65EEFE88280B2EB800D843BC /* TipJarView.swift */,
 				6512C6C1280B291600C44FEC /* Assets.xcassets */,
 				6512C6C3280B291600C44FEC /* LaunchScreen.storyboard */,
 				6512C6C6280B291600C44FEC /* Info.plist */,
@@ -75,6 +81,13 @@
 			children = (
 			);
 			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		65EEFE8A280B328100D843BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +106,9 @@
 			dependencies = (
 			);
 			name = "UIKit Example";
+			packageProductDependencies = (
+				65EEFE8B280B328100D843BC /* SwiftTipJar */,
+			);
 			productName = "UIKit Example";
 			productReference = 6512C6B5280B291600C44FEC /* UIKit Example.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EEFE89280B2EB800D843BC /* TipJarView.swift in Sources */,
 				6512C6BD280B291600C44FEC /* ViewController.swift in Sources */,
 				6512C6B9280B291600C44FEC /* AppDelegate.swift in Sources */,
 				6512C6BB280B291600C44FEC /* SceneDelegate.swift in Sources */,
@@ -376,6 +393,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65EEFE8B280B328100D843BC /* SwiftTipJar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6512C6D1280B2CA700C44FEC /* XCRemoteSwiftPackageReference "SwiftTipJar" */;
+			productName = SwiftTipJar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6512C6AD280B291600C44FEC /* Project object */;
 }
