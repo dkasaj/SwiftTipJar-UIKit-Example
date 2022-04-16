@@ -28,6 +28,10 @@
 		6512C6CC280B29C700C44FEC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6512C6CE280B2A0200C44FEC /* ExampleConfiguration.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ExampleConfiguration.storekit; sourceTree = "<group>"; };
 		65EEFE88280B2EB800D843BC /* TipJarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarView.swift; sourceTree = "<group>"; };
+		65EEFE8D280B40F000D843BC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		65EEFE8E280B40F000D843BC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		65EEFE8F280B40F000D843BC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		65EEFE90280B40F000D843BC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,10 @@
 		6512C6CD280B29CE00C44FEC /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				65EEFE8F280B40F000D843BC /* 1.png */,
+				65EEFE8D280B40F000D843BC /* 2.png */,
+				65EEFE90280B40F000D843BC /* 3.png */,
+				65EEFE8E280B40F000D843BC /* 4.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
